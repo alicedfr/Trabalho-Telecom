@@ -5,7 +5,7 @@ from controle_de_voz import *
 
 # Função para exibir o tabuleiro de forma mais amigável
 def exibir_tabuleiro(tabuleiro):
-    print(tabuleiro)
+    #print(tabuleiro)
     print("  a b c d e f g h")
     for i, linha in enumerate(str(tabuleiro).split("\n"), 1):
         print(f"{9-i} {linha}")
